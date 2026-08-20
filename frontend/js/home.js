@@ -2,20 +2,6 @@ const survival = document.getElementById("btnSurvival");
 const memoria = document.getElementById("btnMemoria");
 const alvo = document.getElementById("btnAlvo");
 
-const usuario = JSON.parse(
-
-    localStorage.getItem("usuarioLogado")
-
-);
-
-const nomeUsuario = document.getElementById("nomeUsuario");
-
-nomeUsuario.textContent = `Olá, ${usuario.nome}!`;
-
-const survival = document.getElementById("btnSurvival");
-const memoria = document.getElementById("btnMemoria");
-const alvo = document.getElementById("btnAlvo");
-
 
 survival.addEventListener("click", () => {
 
